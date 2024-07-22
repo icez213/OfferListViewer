@@ -18,6 +18,7 @@ class OfferCell: UITableViewCell {
         setupCardView()
         setupOfferImageView()
         setupOfferNameLabel()
+        selectionStyle = .none
     }
     
     required init?(coder: NSCoder) {

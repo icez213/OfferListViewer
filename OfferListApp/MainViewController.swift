@@ -34,6 +34,7 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
         tableView.dataSource = self
         tableView.delegate = self
         tableView.register(OfferCell.self, forCellReuseIdentifier: "OfferCell")
+        tableView.separatorStyle = .none
         
         // Add the header view for sorting
         let headerView = UIView()
